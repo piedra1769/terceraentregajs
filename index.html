@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Agencia de Turismo Coogranada">
+    <title>Cotiza tu Viaje</title>
+    <link rel="shortcut icon" href="./imagenes/logo1.png">
+
+    <!--Link CSS Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+  </head>
+    
+  <body>
+
+    <header>
+      <nav class="bg-light">
+        <div class="logo">
+          <img class="bi me-2" src="./imagenes/logo1.png"  width="300" height="auto" class="col-12 col-md-6 col-lg-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
+        </div>
+      </nav>
+    </header>
+      
+    <main id="cotizacion">
+      <div class="container-fluid p-5 bg-light">
+        <div class="datos">
+          <h3 class="pb-3">Cotiza con nosotros</h3>
+        </div>
+        <form class="row g-3">
+            <div class="col-md-6">
+                <label for="inputDestino" class="form-label">Destino</label>
+                <select id="inputDestino" class="form-select">
+                  <option id ='1' selected>Santa Marta</option>
+                  <option id ='2'>Cartagena</option>
+                  <option id ='3'>Eje Cafetero</option>
+                </select>
+              </div>
+            <div class="col-md-6">
+                <label for="inputPersonas" class="form-label">N° personas</label>
+                <input type="text" class="form-control" id="inputPersonas">
+            </div>
+          <div class="col-12">
+            <button type="submit" class="btn btn-primary">Cotizar</button>
+          </div>
+        </form>
+      </div>
+
+      <div id="contenedorResultado">
+      </div>
+
+    </main>
+
+    <footer class="container-fluid bg-light">
+      <div class="row">
+        <div  class="col-12 col-md-6 col-lg-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
+          <img src="./imagenes/logo1.png" class="bi me-2" width="200" height="auto">
+        </div>
+      </div>
+    </footer> 
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="./desafio3.js"></script>
+
+  </body>
+</html>
