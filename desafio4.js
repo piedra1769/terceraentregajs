@@ -14,7 +14,7 @@ formulario.addEventListener("submit", (e) => {
     
 })
 
-Swal.fire('¿Seguro quieres cotizar?')
+Swal.fire('¿Quieres cotizar?')
 
 const cotizarViaje = () => {
     
