@@ -8,11 +8,13 @@ formulario.addEventListener("submit", (e) => {
 
    
     
+    contenedor.innerHTML="";
     contenedor.append('El precio de su viaje es de: ' + precioFinal);
     //document.getElementById('contenedorResultado').innerHTML = ('El precio de su viaje es de: ' + precioFinal )
     
 })
 
+Swal.fire('¿Seguro quieres cotizar?')
 
 const cotizarViaje = () => {
     
